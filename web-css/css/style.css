@@ -1,0 +1,158 @@
+/* untuk body gunakan warna hitam ukuran font 16 */
+body {
+    font: 16px "Trebuchet MS", Arial, sans-serif;
+    background-color: #0b0b0b;
+    color: #f5f5f5;
+
+}
+
+/* untuk container gunakan warna gelap width atau lebar 800px dan margin auto */
+.container {
+    background-color: #151515;
+    width: 800px;
+    margin: auto;
+}
+
+/* mengatur jarak dalam header padding top 20, padding right 20 dan padding left 20 */
+.header {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.header .judul {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    transition: 0.3s;
+}
+
+.header .judul:hover {
+    color: #c1121f;
+    transform: translateX(5px);
+}
+
+/* mengatur display inline-block agar bisa diberikan dimensi */
+.nav {
+    padding: 0px;
+}
+
+.nav li {
+    /* agar menjadi kesamping tidak kebawah */
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+/* menghilangkan garis bawah link */
+.nav li a {
+    text-decoration: none;
+    color: #c1121f;
+    transition: 0.3s;
+}
+
+/* ketika navigasi disorot mouse */
+.nav li a:hover {
+    background-color: #c1121f;
+    color: #f5f5f5;
+    transition: 0.3s;
+}
+
+/* untuk css banner */
+.banner {
+    height: 300px;
+    /* background-color: #a1a1a1; */
+
+    /* berikan file gambar */
+    background-image: url("../img/banner.jpg");
+
+    /* atur ukuran gambar */
+    background-size: cover;
+
+    /* mengatur posisi gambar horisontal dan vertikal */
+    background-position: 0px -110px;
+
+    /* mengatur garis tepi tebal jenis warna */
+    border-top: 5px solid #c1121f;
+    border-bottom: 5px solid #c1121f;
+
+    transition: 0.5s;
+}
+
+.banner:hover {
+    background-position: 0px -100px;
+}
+
+/* untuk isi */
+.isi {
+    padding: 20px;
+}
+
+.isi h2 {
+    font-size: 30px;
+    font-weight: bold;
+    display: inline-block;
+    border-bottom: 2px solid #c1121f;
+    padding-bottom: 5px;
+}
+
+.isi h2:hover {
+    color: #c1121f;
+    transition: 0.3s;
+}
+
+.isi .penulis {
+    font-size: 14px;
+    /* agar agak naik */
+    margin-top: -10px;
+}
+
+.isi .penulis a {
+    text-decoration: none;
+    color: #a1a1a1;
+    display: inline-block;
+    transition: 0.2s;
+}
+
+.isi .penulis a:hover {
+    color: #c1121f;
+}
+
+
+.isi p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* untuk footer */
+.footer {
+    background-color: #c1121f;
+    height: 50px;
+    padding: 2px;
+}
+
+.footer .copyright {
+    font-size: 16px;
+    color: #f5f5f5;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.footer .copyright:hover {
+    color: black
+
+}
+
+.tag span {
+    display: inline-block;
+    padding: 4px 8px;
+    background-color: #c1121f;
+    color: #f5f5f5;
+    font-size: 12px;
+}
+
+.tag span:hover {
+    background-color: #f5f5f5;
+    color: #c1121f;
+    transition: 0.3s;
+}
