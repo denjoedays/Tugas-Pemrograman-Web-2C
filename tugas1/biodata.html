@@ -1,116 +1,119 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Profil Saya</title>
     <style>
-        /* Gaya Tampilan (CSS) */
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f9;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+      }
 
-        .card {
-            background-color: #ffffff;
-            width: 350px;
-            padding: 25px;
-            border-radius: 12px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
+      .card {
+        background-color: #ffffff;
+        width: 350px;
+        padding: 25px;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+      }
 
-        .profile-img {
-            width: 120px;
-            height: 120px;
-            border-radius: 50%;
-            object-fit: cover;
-            margin-bottom: 15px;
-            border: 3px solid #007bff;
-        }
+      .profile-img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 15px;
+        border: 3px solid #007bff;
+      }
 
-        h1 {
-            font-size: 22px;
-            margin-bottom: 5px;
-            color: #333;
-        }
+      h1 {
+        font-size: 22px;
+        margin-bottom: 5px;
+        color: #333;
+      }
 
-        p.title {
-            color: #777;
-            font-size: 14px;
-            margin-top: 0;
-            margin-bottom: 20px;
-        }
+      p.title {
+        color: #777;
+        font-size: 14px;
+        margin-top: 0;
+        margin-bottom: 20px;
+      }
 
-        .info {
-            text-align: left;
-            margin-top: 20px;
-            border-top: 1px solid #eee;
-            padding-top: 15px;
-        }
+      .info {
+        text-align: left;
+        margin-top: 20px;
+        border-top: 1px solid #eee;
+        padding-top: 15px;
+      }
 
-        .info p {
-            margin: 8px 0;
-            color: #555;
-            font-size: 14px;
-        }
+      .info p {
+        margin: 8px 0;
+        color: #555;
+        font-size: 14px;
+      }
 
-        .info strong {
-            color: #333;
-        }
+      .info strong {
+        color: #333;
+      }
 
-        .social-links {
-            margin-top: 20px;
-        }
+      .social-links {
+        margin-top: 20px;
+      }
 
-        .social-links a {
-            display: inline-block;
-            margin: 0 5px;
-            padding: 8px 15px;
-            background-color: #007bff;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            font-size: 12px;
-            transition: background 0.3s;
-        }
+      .social-links a {
+        display: inline-block;
+        margin: 0 5px;
+        padding: 8px 15px;
+        background-color: #007bff;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 12px;
+        transition: background 0.3s;
+      }
 
-        .social-links a:hover {
-            background-color: #0056b3;
-        }
+      .social-links a:hover {
+        background-color: #0056b3;
+      }
     </style>
-</head>
-<body>
-
+  </head>
+  <body>
     <div class="card">
-        <!-- Foto Profil (Ganti link URL gambar di bawah dengan foto kamu) -->
-        <img src="https://i.pinimg.com/1200x/49/9d/e8/499de8c2ad37df90b686113233689314.jpg" alt="Foto Profil" class="profile-img">
+      <img
+        src="https://i.pinimg.com/1200x/49/9d/e8/499de8c2ad37df90b686113233689314.jpg"
+        alt="Foto Profil"
+        class="profile-img"
+      />
 
-        <!-- Nama & Profesi/Status -->
-        <h1>Gabriel Yohan Nugroho</h1>
-        <p class="title">Web Developer / Pelajar / Mahasiswa</p>
+      <h1>Gabriel Yohan Nugroho</h1>
+      <p class="title">Web Developer / Pelajar / Mahasiswa</p>
 
-        <!-- Informasi Biodata -->
-        <div class="info">
-            <p><strong>TTL:</strong> Kediri, 20 April 2002</p>
-            <p><strong>Alamat:</strong> Jl. Jaka Muda, Kediri</p>
-            <p><strong>Email:</strong> denjoedays17@gmail.com</p>
-            <p><strong>Hobi:</strong> Main Game</p>
-        </div>
+      <div class="info">
+        <p><strong>TTL:</strong> Kediri, 20 April 2002</p>
+        <p><strong>Alamat:</strong> Jl. Jaka Muda, Kediri</p>
+        <p><strong>Email:</strong> denjoedays17@gmail.com</p>
+        <p><strong>Hobi:</strong> Main Game</p>
+      </div>
 
-        <!-- Tautan Sosial Media -->
-        <div class="social-links">
-            <a href="https://instagram.com/denjoedays_" target="_blank">Instagram</a>
-            <a href="https://api.whatsapp.com/send/?phone=%2B6281233123985&text&type=phone_number&app_absent=0" target="_blank">WhatsApp</a>
-            <a href="https://github.com/denjoedays" target="_blank">GitHub</a>
-        </div>
+      <div class="social-links">
+        <a href="https://instagram.com/denjoedays_" target="_blank"
+          >Instagram</a
+        >
+        <a
+          href="https://api.whatsapp.com/send/?phone=%2B6281233123985&text&type=phone_number&app_absent=0"
+          target="_blank"
+          >WhatsApp</a
+        >
+        <a href="https://github.com/denjoedays" target="_blank">GitHub</a>
+      </div>
     </div>
-
-</body>
+  </body>
 </html>
