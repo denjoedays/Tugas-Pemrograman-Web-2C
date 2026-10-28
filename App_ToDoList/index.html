@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apps ToDo List - Agenda Kegiatan</title>
+    <!-- Menghubungkan file CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="showData()">
+
+    <div class="container">
+        <header class="app-header">
+            <h1>Agenda Kegiatan</h1>
+            <p class="subtitle">Catat dan kelola aktivitas harian Anda</p>
+        </header>
+
+        <section class="form-section">
+            <label for="agenda">Masukkan Kegiatan Anda:</label>
+            <div class="input-group">
+                <input type="text" id="agenda" placeholder="Contoh: Belajar Pemrograman Web..." autocomplete="off">
+                <button type="button" onclick="addData()">Simpan</button>
+            </div>
+        </section>
+
+        <hr class="divider">
+
+        <section class="list-section">
+            <h3>Daftar Agenda</h3>
+            <ul id="daftar">
+                <!-- Data agenda dari my-script.js akan dimasukkan ke sini -->
+            </ul>
+        </section>
+    </div>
+
+    <!-- Menghubungkan file JavaScript eksternal sesuai tutorial -->
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
